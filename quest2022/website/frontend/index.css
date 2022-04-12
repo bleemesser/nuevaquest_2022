@@ -1,0 +1,125 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f8f8f7;
+}
+
+.nav {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.box_1 {
+    margin-right: 0;
+    margin-left: auto;
+    float: right;
+}
+
+.navp {
+    font-family: "spinnaker", sans-serif;
+    color: #4d4d4d;
+    font-size: 16pt;
+    padding-left: 1.3vw;
+    font-weight: bold;
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+.nav .link {
+    float: left;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 1.7vh 1.4vw;
+    text-decoration: none;
+    font-size: 13pt;
+    font-family: "spinnaker", sans-serif;
+    white-space: nowrap;
+}
+
+.nav .link:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+article p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    color: #4d4d4d;
+    font-family: "spinnaker", sans-serif;
+    font-size: 12pt;
+    text-indent: 0px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+article h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    color: #4d4d4d;
+    font-family: "spinnaker", sans-serif;
+    font-size: 16pt;
+    text-indent: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+article label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    color: #4d4d4d;
+    font-family: "spinnaker", sans-serif;
+    font-size: 12pt;
+    text-indent: 0px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+article input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+}
+
+article input+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+article ol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+article li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    color: #4d4d4d;
+    font-family: "spinnaker", sans-serif;
+    font-size: 18pt;
+    text-indent: 0px;
+    line-height: 1.5;
+    text-align: center;
+}
